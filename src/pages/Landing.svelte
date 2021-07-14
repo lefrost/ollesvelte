@@ -1,6 +1,6 @@
 <h1>Ollesvelte</h1>
 <span
-  ><a href="https://github.com/ollefrost" target="_blank"><b>Lefrost</b></a>'s
+  ><a href="https://github.com/ollefrost" target="_blank"><b>Léfrost</b></a>'s
   personal Svelte boilerplate. ✌️</span
 >
 
