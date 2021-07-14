@@ -4,7 +4,7 @@ My personal [Svelte](https://svelte.dev) boilerplate. Preview on [Vercel](https:
 
 ## Notable changes
 
-Besides the additional dependencies and files, I've made a couple more changes to the Svelte's [default boilerplate](https://svelte.dev/repl/hello-world):
+Besides the additional dependencies and files, I've made a couple more changes to Svelte's [default boilerplate](https://svelte.dev/repl/hello-world):
 - Tweaked `rollup.config.js` to account for additional dependencies and added `--single` flag to `npm run dev` command so page refreshes won't spit out a 404
 - Moved global styles from `public/global.css` to `src/assets/scss/globals/styles.scss`
 - Enhanced file structure and index page to what I like to start off with
