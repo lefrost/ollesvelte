@@ -1,0 +1,19 @@
+@mixin clickable {
+  transition: filter 0.2s;
+  @include swish;
+
+  &:hover {
+    filter: invert(20%);
+  }
+}
+
+@mixin swish {
+  transition-duration: 0.4s;
+}
+
+@mixin wrapper {
+  width: calc(100% - #{$wrapper-gutter} * 2);
+  max-width: $wrapper-width;
+  padding: 0 $wrapper-gutter;
+  margin: 0 auto;
+}
