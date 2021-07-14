@@ -23,7 +23,7 @@ On [VS Code](https://code.visualstudio.com/):
 - (Optional) [dotenv](https://github.com/motdotla/dotenv) for locally managing environment variables
 - (Optional) [gh-pages](https://github.com/tschaub/gh-pages) for alternative deployment to Github Pages
 
-# Scripts
+## Scripts
 
 - [clipboard.js](https://github.com/zenorocha/clipboard.js) for simplified copy-to-clipboard actions
 - [jQuery](https://github.com/jquery/jquery) obviously
