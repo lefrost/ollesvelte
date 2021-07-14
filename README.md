@@ -12,8 +12,8 @@ Besides the additional dependencies and files, I've made a couple more changes t
 ## Extensions
 
 On [VS Code](https://code.visualstudio.com/):
-- [svelte.svelte-vscode](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) for `.svelte` support
 - [esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for formatting non-`.svelte` files
+- [svelte.svelte-vscode](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) for `.svelte` support and formatting
 
 ## Dependencies
 
@@ -22,6 +22,11 @@ On [VS Code](https://code.visualstudio.com/):
 - [vercel](https://github.com/vercel/vercel) for deployment through CLI
 - (Optional) [dotenv](https://github.com/motdotla/dotenv) for locally managing environment variables
 - (Optional) [gh-pages](https://github.com/tschaub/gh-pages) for alternative deployment to Github Pages
+
+# Scripts
+
+- [clipboard.js](https://github.com/zenorocha/clipboard.js) for simplified copy-to-clipboard actions
+- [jQuery](https://github.com/jquery/jquery) obviously
 
 ## Setup
 
