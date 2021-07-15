@@ -15,6 +15,14 @@ On [VS Code](https://code.visualstudio.com/):
 - [esbenp.prettier-vscode](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) for formatting non-`.svelte` files
 - [svelte.svelte-vscode](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) for `.svelte` support and formatting
 
+Setup in global `settings.json`:
+```json
+"editor.defaultFormatter": "esbenp.prettier-vscode",
+"[svelte]": {
+  "editor.defaultFormatter": "svelte.svelte-vscode"
+}
+```
+
 ## Dependencies
 
 - [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess) for `.scss` support with `<style lang="scss">..</style>`
