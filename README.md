@@ -31,13 +31,14 @@ Setup in global `settings.json`:
 - [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess) for `.scss` support with `<style lang="scss">..</style>`
 - [svelte-routing](https://github.com/EmilTholin/svelte-routing) or [svelte-navigator](https://github.com/mefechoel/svelte-navigator) for `<Route>` and `<Link to="..">`-based routing
 - [vercel](https://github.com/vercel/vercel) for deployment through CLI
-- (Optional) [dotenv](https://github.com/motdotla/dotenv) for locally managing environment variables
-- (Optional) [gh-pages](https://github.com/tschaub/gh-pages) for alternative deployment to Github Pages
-- (Optional) [numeral.js](http://numeraljs.com/) for formatting numbers
+- [clipboard.js](https://github.com/zenorocha/clipboard.js) for simplified copy-to-clipboard actions (added as script)
+- [dotenv](https://github.com/motdotla/dotenv) for locally managing environment variables
+- [easytimer.js](https://github.com/albert-gonzalez/easytimer.js/) for countdowns
+- [gh-pages](https://github.com/tschaub/gh-pages) for alternative deployment to Github Pages
+- [numeral.js](http://numeraljs.com/) for formatting numbers (added as script)
 
 ## Scripts
 
-- [clipboard.js](https://github.com/zenorocha/clipboard.js) for simplified copy-to-clipboard actions
 - [jQuery](https://github.com/jquery/jquery) obviously
 
 ## Setup
