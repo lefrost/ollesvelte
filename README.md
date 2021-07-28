@@ -67,4 +67,4 @@ vercel deploy --prod
 
 ---
 
-🍉 Last updated on July 2021 🍉
+🍉 Last revised on July 2021 🍉
