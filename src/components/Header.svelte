@@ -1,30 +1,30 @@
 <script>
   import { add_attribute } from "svelte/internal";
 
-  // import { Link } from "svelte-routing";
+  import { Link } from "svelte-routing";
   import { root } from "../assets/js/paths.js";
 </script>
 
 <div class="header">
-  <!-- <Link to={root}> -->
-  <a href={root} class="link  main--">Ollesvelte</a>
-  <!-- </Link> -->
+  <Link to={root}>
+    <div class="link  main--">Ollesvelte</div>
+  </Link>
 
-  <!-- <Link to="{root}meta"> -->
-  <a href="{root}meta" class="link">Meta</a>
-  <!-- </Link> -->
+  <Link to="{root}meta">
+    <div class="link">Meta</div>
+  </Link>
 </div>
 
 <button class="menu">
   👾
   <div class="menu__links">
-    <!-- <Link to={root}> -->
-    <a href={root} class="link">Home</a>
-    <!-- </Link> -->
+    <Link to={root}>
+      <div class="link">Home</div>
+    </Link>
 
-    <!-- <Link to="{root}meta"> -->
-    <a href="{root}meta" class="link">Meta</a>
-    <!-- </Link> -->
+    <Link to="{root}meta">
+      <div class="link">Meta</div>
+    </Link>
   </div>
 </button>
 
