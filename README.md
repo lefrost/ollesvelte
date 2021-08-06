@@ -54,7 +54,6 @@ First-time deployment with [Vercel](https://vercel.com/):
 
 ```bash
 npm run build
-cd public
 vercel deploy --name app-name
 ```
 
