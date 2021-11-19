@@ -28,7 +28,7 @@
 
   .main {
     @include wrapper;
-    padding: $wrapper-gutter 0;
+    // padding: $wrapper-gutter 0;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
